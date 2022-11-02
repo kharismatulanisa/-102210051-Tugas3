@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Web Desain RISMA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">Olimpiade Matematika Internasional</div>
+</body>
+<ul>
+  <li><a href="Index.html ">Halaman Utama</a></li>
+  <li><a href="#">Tabel</a></li>
+</ul>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Index.html">Halaman Utama</a>
+    <a href="#">tabel</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+  <table border="3">
+    <tr>
+      <th>No</th>
+      <th>Tempat</th>
+      <th>Tanggal</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Brasov dan Bucharest, Rumania</td>
+      <td>23-31 juli 1959</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sinaina, Rumania</td>
+      <td>18-25 juli 1960</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Veszprem, Hungaria</td>
+      <td>6-16 Juli 1961</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ceske Budejovice, Cekoslowakia</td>
+      <td>7-15 Juli 1962</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Warsawa dan Wroclaw, Polandia</td>
+      <td>5-13 Juki 1963</td>
+    </tr>
+    
+  </table>
+  <div class="footer">
+    <p>Pekalongan,25 Oktober 2022</p>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
